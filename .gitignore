@@ -1,0 +1,68 @@
+# Virtual machines
+
+# Virtual disk images
+*.qcow2
+*.qcow
+*.img
+*.raw
+*.vmdk
+*.vdi
+
+# VM state / snapshots
+*.sav
+*.snapshot
+*.snap
+*.state
+
+# QEMU logs and runtime files
+*.log
+*.pid
+*.sock
+
+# QEMU temporary files
+*.tmp
+
+# Runtime / generated files
+
+tmp/
+temp/
+runtime/
+*.pid
+*.lock
+
+# Local configuration
+
+.env
+.env.*
+!.env.example
+
+# Local configuration files
+config/local.*
+config/*.local.*
+
+# Test artifacts
+
+test-results/
+coverage/
+reports/
+
+# Generated test VM data
+tests/data/
+tests/vms/
+
+# Shell / editor files
+
+*.swp
+*.swo
+*~
+.DS_Store
+
+.vscode/
+.idea/
+
+# OS files
+
+Thumbs.db
+Desktop.ini
+*.iso
+CONTRIBUTING
