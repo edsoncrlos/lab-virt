@@ -11,4 +11,5 @@ As ADRs documentam decisões arquiteturais relevantes, seus respectivos contexto
 | --------------------------------------------------------- | ------------------------------------- | -------- |
 | [ADR-001](./001-Adotar-arquitetura-monolitica-modular.md) | Adotar arquitetura monolítica modular | Accepted |
 | [ADR-002](./002-Adotar-spring-boot-como-framework-do-backend.md) | Adotar Spring Boot como framework do backend | Accepted |
+| [ADR-003](003-Adotar-DDD-no-backend.md) | Adotar Domain-Driven Design (DDD) no backend | Accepted |
 
